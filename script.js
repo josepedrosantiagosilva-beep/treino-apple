@@ -35,7 +35,7 @@ function update(direction){
 clearInterval(timer)
 timer = setInterval(() => {
   update(1)
-}, 2000)
+}, 5000)
 
 prevbutton.addEventListener('click',() =>{
    update(-1)
